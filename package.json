@@ -1,0 +1,21 @@
+{
+  "name": "theme-ff",
+  "displayName": "theme-ff",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "theme-ff",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-ff-color-theme.json"
+      }
+    ]
+  }
+}
