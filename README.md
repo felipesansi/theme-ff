@@ -2,7 +2,7 @@
 
 **theme-ff** é um tema personalizado para o Visual Studio Code que oferece uma paleta de cores única, cuidadosamente escolhida para proporcionar uma experiência de codificação agradável e produtiva.
 
-![Preview do Tema](https://via.placeholder.com/800x400?text=Tema+Preview)
+![Preview do Tema](<a href="https://ibb.co/m85mt5x"><img src="https://i.ibb.co/fvdbtdc/Captura-de-tela-2024-07-24-152508.png" alt="Captura-de-tela-2024-07-24-152508" border="0"></a>)
 
 ## Paleta de Cores
 

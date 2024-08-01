@@ -5,7 +5,6 @@
   "activityBar.background": "#203645", // Cor de fundo da barra de atividades (à esquerda do editor)
   "dropdown.background": "#061826", // Cor de fundo das caixas de seleção suspensas
   "sideBarSectionHeader.background": "#203645", // Cor de fundo dos cabeçalhos das seções na barra lateral
-  "editor.lineHighlightBackground": "#203645", // Cor de fundo do realce da linha atual no editor
   "editor.lineHighlightBorder": "#203645", // Cor da borda do realce da linha atual no editor
   "sideBar.background": "#061826", // Cor de fundo da barra lateral
   "editor.foreground": "#ffffff", // Cor das escritas no editor de código
@@ -38,19 +37,19 @@
   "activityBar.foreground": "#0CC0DF", // Cor de primeiro plano da barra de atividades
   "editorCursor.foreground": "#ffedf0", // Cor do cursor no editor de código
   "extensionButton.prominentForeground": "#ffffff", // Cor do texto dos botões proeminentes das extensões
-  "list.inactiveSelectionBackground": "#8b3758", // Cor de fundo do item selecionado inativamente em listas
+  "list.inactiveSelectionBackground": "#2c293d", // Cor de fundo do item selecionado inativamente em listas
   "list.highlightForeground": "#ffffff", // Cor do texto destacado em listas
   "peekView.border": "#2c293d", // Cor da borda da visualização de pico
   "panelTitle.activeForeground": "#ffff", // Cor do texto do título do painel ativo
-  "editorWhitespace.foreground": "#8f404d", // Cor dos espaços em branco no editor
+  "editorWhitespace.foreground": "#6f408f", // Cor dos espaços em branco no editor
   "editorLineNumber.foreground": "#0e8aa0", // Cor dos números de linha no editor
-  "editor.selectionBackground": "#061826", // Cor de fundo da seleção no editor
+  "editor.selectionBackground": "#546E7A", // Cor de fundo da seleção no editor
   "editor.selectionHighlightBackground": "#4840b380", // Cor de fundo do destaque da seleção no editor
   "editor.wordHighlightBackground": "#4840b3", // Cor de fundo do destaque de palavras no editor
   "editor.wordHighlightStrongBackground": "#181f2980", // Cor de fundo do destaque forte de palavras no editor
   "editor.findMatchBackground": "#f39d12d7", // Cor de fundo da correspondência encontrada no editor
   "editor.findMatchHighlightBackground": "#59b8b377", // Cor de fundo do destaque da correspondência encontrada no editor
-  "editor.hoverHighlightBackground": "#4840b3", // Cor de fundo do destaque ao passar o mouse sobre o texto no editor
+ 
   "editorLink.activeForeground": "#3b79c7", // Cor de primeiro plano dos links ativos no editor
   "editor.rangeHighlightBackground": "#372f3c", // Cor de fundo do destaque de intervalo no editor
   "editorRuler.foreground": "#0e8aa0", // Cor da régua no editor
@@ -86,7 +85,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#f87218"
 			}
 		},
 		{
@@ -226,7 +225,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#d8a23e"
 			}
 		},
 		{
@@ -310,7 +309,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#46963f"
 			}
 		},
 		{
@@ -733,6 +732,7 @@
 
 			
 		},
+		
 		
 
 	]
