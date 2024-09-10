@@ -3,12 +3,12 @@
   "displayName": "theme-ff",
   "description": "theme-ff é um tema escuro sofisticado para o Visual Studio Code, projetado para oferecer uma experiência de codificação tranquila e produtiva. Com uma paleta de cores cuidadosamente selecionada, o tema proporciona um ambiente de trabalho moderno que é fácil para os olhos e perfeito para sessões de programação prolongadas. Ideal para desenvolvedores que buscam foco e eficiência, theme-ff combina estética e funcionalidade em um único pacote.",
   "publisher": "felipesansi",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "repository": "https://github.com/felipesansi/theme-ff.git",
   "engines": {
     "vscode": "^1.91.0"
   },
-  "icon": "icon.png",
+ "icon": "icon.png",
   "categories": [
     "Themes"
   ],
@@ -18,6 +18,11 @@
         "label": "theme-ff",
         "uiTheme": "vs-dark",
         "path": "./themes/theme-ff-color-theme.json"
+      },
+      {
+        "label": "theme-ff2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-ff2-color-theme.json"
       }
     ]
   }

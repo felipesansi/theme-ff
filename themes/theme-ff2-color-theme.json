@@ -1,0 +1,953 @@
+{
+	
+    "name": "theme-ff",
+    "colors": {
+      // Cor da borda de foco dos elementos
+      "focusBorder": "#005cc5",
+      
+      // Cor do texto principal
+      "foreground": "#d1d5da",
+      
+      // Cor do texto da descrição
+      "descriptionForeground": "#959da5",
+      
+      // Cor do texto de erro
+      "errorForeground": "#f97583",
+      
+      // Cor do link de texto
+      "textLink.foreground": "#79b8ff",
+      
+      // Cor do link de texto quando ativo
+      "textLink.activeForeground": "#c8e1ff",
+      
+      // Cor de fundo de bloco de citação
+      "textBlockQuote.background": "#24292e",
+      
+      // Cor da borda do bloco de citação
+      "textBlockQuote.border": "#444d56",
+      
+      // Cor de fundo de bloco de código
+      "textCodeBlock.background": "#2f363d",
+      
+      // Cor do texto pré-formatado
+      "textPreformat.foreground": "#d1d5da",
+      
+      // Cor do separador de texto
+      "textSeparator.foreground": "#586069",
+      
+      // Cor de fundo do botão
+      "button.background": "#176f2c",
+      
+      // Cor do texto do botão
+      "button.foreground": "#dcffe4",
+      
+      // Cor de fundo do botão ao passar o mouse
+      "button.hoverBackground": "#22863a",
+      
+      // Cor de fundo da caixa de seleção
+      "checkbox.background": "#444d56",
+      
+      // Cor da borda da caixa de seleção
+      "checkbox.border": "#1b1f23",
+      
+      // Cor de fundo do dropdown
+      "dropdown.background": "#2f363d",
+      
+      // Cor da borda do dropdown
+      "dropdown.border": "#1b1f23",
+      
+      // Cor do texto do dropdown
+      "dropdown.foreground": "#e1e4e8",
+      
+      // Cor de fundo da lista do dropdown
+      "dropdown.listBackground": "#24292e",
+      
+      // Cor de fundo do campo de entrada
+      "input.background": "#2f363d",
+      
+      // Cor da borda do campo de entrada
+      "input.border": "#1b1f23",
+      
+      // Cor do texto do campo de entrada
+      "input.foreground": "#e1e4e8",
+      
+      // Cor do texto de espaço reservado no campo de entrada
+      "input.placeholderForeground": "#959da5",
+      
+      // Cor do texto do distintivo
+      "badge.foreground": "#c8e1ff",
+      
+      // Cor de fundo do distintivo
+      "badge.background": "#044289",
+      
+      // Cor de fundo da barra de progresso
+      "progressBar.background": "#0366d6",
+      
+      // Cor do texto da barra de título ativa
+      "titleBar.activeForeground": "#e1e4e8",
+      
+      // Cor de fundo da barra de título ativa
+      "titleBar.activeBackground": "#24292e",
+      
+      // Cor do texto da barra de título inativa
+      "titleBar.inactiveForeground": "#959da5",
+      
+      // Cor de fundo da barra de título inativa
+      "titleBar.inactiveBackground": "#1f2428",
+      
+      // Cor da borda da barra de título
+      "titleBar.border": "#1b1f23",
+      
+      // Cor do texto da barra de atividades
+      "activityBar.foreground": "#e1e4e8",
+      
+      // Cor do texto da barra de atividades inativa
+      "activityBar.inactiveForeground": "#6a737d",
+      
+      // Cor de fundo da barra de atividades
+      "activityBar.background": "#24292e",
+      
+      // Cor do distintivo da barra de atividades
+      "activityBarBadge.foreground": "#fff",
+      
+      // Cor de fundo do distintivo da barra de atividades
+      "activityBarBadge.background": "#0366d6",
+      
+      // Cor da borda ativa da barra de atividades
+      "activityBar.activeBorder": "#f9826c",
+      
+      // Cor da borda da barra de atividades
+      "activityBar.border": "#1b1f23",
+      
+      // Cor do texto da barra lateral
+      "sideBar.foreground": "#d1d5da",
+      
+      // Cor de fundo da barra lateral
+      "sideBar.background": "#1f2428",
+      
+      // Cor da borda da barra lateral
+      "sideBar.border": "#1b1f23",
+      
+      // Cor do título da barra lateral
+      "sideBarTitle.foreground": "#e1e4e8",
+      
+      // Cor do cabeçalho da seção da barra lateral
+      "sideBarSectionHeader.foreground": "#e1e4e8",
+      
+      // Cor de fundo do cabeçalho da seção da barra lateral
+      "sideBarSectionHeader.background": "#1f2428",
+      
+      // Cor da borda do cabeçalho da seção da barra lateral
+      "sideBarSectionHeader.border": "#1b1f23",
+      
+      // Cor do texto quando o item da lista é sobreposto
+      "list.hoverForeground": "#e1e4e8",
+      
+      // Cor do texto quando o item da lista está inativo
+      "list.inactiveSelectionForeground": "#e1e4e8",
+      
+      // Cor do texto quando o item da lista está ativo
+      "list.activeSelectionForeground": "#e1e4e8",
+      
+      // Cor de fundo quando o item da lista é sobreposto
+      "list.hoverBackground": "#282e34",
+      
+      // Cor de fundo quando o item da lista está inativo
+      "list.inactiveSelectionBackground": "#282e34",
+      
+      // Cor de fundo quando o item da lista está ativo
+      "list.activeSelectionBackground": "#39414a",
+      
+      // Cor de fundo quando o item da lista está em foco
+      "list.inactiveFocusBackground": "#1d2d3e",
+      
+      // Cor de fundo quando o item da lista está em foco
+      "list.focusBackground": "#044289",
+      
+      // Cor das guias de indentação da árvore
+      "tree.indentGuidesStroke": "#2f363d",
+      
+      // Cor do texto do cabeçalho do centro de notificações
+      "notificationCenterHeader.foreground": "#959da5",
+      
+      // Cor de fundo do cabeçalho do centro de notificações
+      "notificationCenterHeader.background": "#24292e",
+      
+      // Cor do texto das notificações
+      "notifications.foreground": "#e1e4e8",
+      
+      // Cor de fundo das notificações
+      "notifications.background": "#2f363d",
+      
+      // Cor da borda das notificações
+      "notifications.border": "#1b1f23",
+      
+      // Cor do ícone de erro das notificações
+      "notificationsErrorIcon.foreground": "#ea4a5a",
+      
+      // Cor do ícone de aviso das notificações
+      "notificationsWarningIcon.foreground": "#ffab70",
+      
+      // Cor do ícone de informação das notificações
+      "notificationsInfoIcon.foreground": "#79b8ff",
+      
+      // Cor da borda do grupo de seletores
+      "pickerGroup.border": "#444d56",
+      
+      // Cor do texto do grupo de seletores
+      "pickerGroup.foreground": "#e1e4e8",
+      
+      // Cor de fundo da entrada rápida
+      "quickInput.background": "#24292e",
+      
+      // Cor do texto da entrada rápida
+      "quickInput.foreground": "#e1e4e8",
+      
+      // Cor do texto da barra de status
+      "statusBar.foreground": "#d1d5da",
+      
+      // Cor de fundo da barra de status
+      "statusBar.background": "#24292e",
+      
+      // Cor da borda da barra de status
+      "statusBar.border": "#1b1f23",
+      
+      // Cor de fundo da barra de status sem pasta
+      "statusBar.noFolderBackground": "#24292e",
+      
+      // Cor de fundo da barra de status quando depurando
+      "statusBar.debuggingBackground": "#931c06",
+      
+      // Cor do texto da barra de status quando depurando
+      "statusBar.debuggingForeground": "#fff",
+      
+      // Cor de fundo do item proeminente da barra de status
+      "statusBarItem.prominentBackground": "#282e34",
+      
+      // Cor de fundo do cabeçalho do grupo do editor
+      "editorGroupHeader.tabsBackground": "#1f2428",
+      
+      // Cor da borda do cabeçalho do grupo do editor
+      "editorGroupHeader.tabsBorder": "#1b1f23",
+      
+      // Cor da borda do grupo do editor
+      "editorGroup.border": "#1b1f23",
+      
+      // Cor do texto da aba ativa
+      "tab.activeForeground": "#e1e4e8",
+      
+      // Cor do texto da aba inativa
+      "tab.inactiveForeground": "#959da5",
+      
+      // Cor de fundo da aba inativa
+      "tab.inactiveBackground": "#1f2428",
+      
+      // Cor de fundo da aba ativa
+      "tab.activeBackground": "#24292e",
+      
+      // Cor de fundo da aba ao passar o mouse
+      "tab.hoverBackground": "#24292e",
+      
+      // Cor de fundo da aba não focada ao passar o mouse
+      "tab.unfocusedHoverBackground": "#24292e",
+      
+      // Cor da borda da aba
+      "tab.border": "#1b1f23",
+      
+      // Cor da borda superior da aba não focada
+      "tab.unfocusedActiveBorderTop": "#1b1f23",
+      
+      // Cor da borda da aba ativa
+      "tab.activeBorder": "#24292e",
+      
+      // Cor da borda da aba não focada ativa
+      "tab.unfocusedActiveBorder": "#24292e",
+      
+      // Cor da borda superior da aba ativa
+      "tab.activeBorderTop": "#f9826c",
+      
+      // Cor do texto do breadcrumb
+      "breadcrumb.foreground": "#959da5",
+      
+      // Cor do texto de foco do breadcrumb
+      "breadcrumb.focusForeground": "#e1e4e8",
+      
+      // Cor da seleção ativa do breadcrumb
+      "breadcrumb.activeSelectionForeground": "#d1d5da",
+      
+      // Cor de fundo do seletor de breadcrumb
+      "breadcrumbPicker.background": "#2b3036",
+      
+      // Cor do texto do editor
+      "editor.foreground": "#e1e4e8",
+      
+      // Cor de fundo do editor
+      "editor.background": "#24292e",
+      
+      // Cor de fundo do widget do editor
+      "editorWidget.background": "#1f2428",
+      
+      // Cor de fundo do fechamento do editor
+      "editor.foldBackground": "#282e33",
+      
+      // Cor de fundo do destaque da linha do editor
+      "editor.lineHighlightBackground": "#2b3036",
+      
+      // Cor do número da linha do editor
+      "editorLineNumber.foreground": "#444d56",
+      
+      // Cor do número da linha ativa do editor
+      "editorLineNumber.activeForeground": "#e1e4e8",
+      
+      // Cor de fundo do guia de indentação do editor
+      "editorIndentGuide.background": "#2f363d",
+      
+      // Cor de fundo do guia de indentação ativo do editor
+      "editorIndentGuide.activeBackground": "#444d56",
+      
+      // Cor do espaço em branco do editor
+      "editorWhitespace.foreground": "#444d56",
+      
+      // Cor do cursor do editor
+      "editorCursor.foreground": "#c8e1ff",
+      
+      // Cor de fundo da correspondência encontrada no editor
+      "editor.findMatchBackground": "#ffd33d44",
+      
+      // Cor de fundo do destaque da correspondência encontrada no editor
+      "editor.findMatchHighlightBackground": "#ffd33d22",
+      
+      // Cor de fundo da seleção inativa no editor
+      "editor.inactiveSelectionBackground": "#3392FF22",
+      
+      // Cor de fundo da seleção no editor
+      "editor.selectionBackground": "#3392FF44",
+      
+      // Cor de fundo do destaque da seleção no editor
+      "editor.selectionHighlightBackground": "#17E5E633",
+      
+      // Cor da borda do destaque da seleção no editor
+      "editor.selectionHighlightBorder": "#17E5E600",
+      
+      // Cor de fundo da palavra destacada no editor
+      "editor.wordHighlightBackground": "#17E5E600",
+      
+      // Cor de fundo da palavra destacada fortemente no editor
+      "editor.wordHighlightStrongBackground": "#17E5E600",
+      
+      // Cor da borda da palavra destacada no editor
+      "editor.wordHighlightBorder": "#17E5E699",
+      
+      // Cor da borda da palavra destacada fortemente no editor
+      "editor.wordHighlightStrongBorder": "#17E5E666",
+      
+      // Cor de fundo da correspondência de parênteses no editor
+      "editorBracketMatch.background": "#17E5E650",
+      
+      // Cor da borda da correspondência de parênteses no editor
+      "editorBracketMatch.border": "#17E5E600",
+      
+      // Cor de fundo do número de linhas alteradas no editor
+      "editorGutter.modifiedBackground": "#2188ff",
+      
+      // Cor de fundo das linhas adicionadas no editor
+      "editorGutter.addedBackground": "#28a745",
+      
+      // Cor de fundo das linhas deletadas no editor
+      "editorGutter.deletedBackground": "#ea4a5a",
+      
+      // Cor de fundo do texto inserido no editor de diferenças
+      "diffEditor.insertedTextBackground": "#28a74530",
+      
+      // Cor de fundo do texto removido no editor de diferenças
+      "diffEditor.removedTextBackground": "#d73a4930",
+      
+      // Cor da sombra da barra de rolagem
+      "scrollbar.shadow": "#0008",
+      
+      // Cor de fundo do slider da barra de rolagem
+      "scrollbarSlider.background": "#6a737d33",
+      
+      // Cor de fundo do slider da barra de rolagem ao passar o mouse
+      "scrollbarSlider.hoverBackground": "#6a737d44",
+      
+      // Cor de fundo do slider da barra de rolagem quando ativo
+      "scrollbarSlider.activeBackground": "#6a737d88",
+      
+      // Cor da borda do regulador de visualização do editor
+      "editorOverviewRuler.border": "#1b1f23",
+      
+      // Cor de fundo do painel
+      "panel.background": "#1f2428",
+      
+      // Cor da borda do painel
+      "panel.border": "#1b1f23",
+      
+      // Cor da borda ativa do título do painel
+      "panelTitle.activeBorder": "#f9826c",
+      
+      // Cor do texto ativo do título do painel
+      "panelTitle.activeForeground": "#e1e4e8",
+      
+      // Cor do texto inativo do título do painel
+      "panelTitle.inactiveForeground": "#959da5",
+      
+      // Cor da borda de entrada do painel
+      "panelInput.border": "#2f363d",
+      
+      // Cor do texto do terminal
+      "terminal.foreground": "#d1d5da",
+      
+      // Cor do texto adicionado na decoração do Git
+      "gitDecoration.addedResourceForeground": "#34d058",
+      
+      // Cor do texto modificado na decoração do Git
+      "gitDecoration.modifiedResourceForeground": "#79b8ff",
+      
+      // Cor do texto deletado na decoração do Git
+      "gitDecoration.deletedResourceForeground": "#ea4a5a",
+      
+      // Cor do texto não rastreado na decoração do Git
+      "gitDecoration.untrackedResourceForeground": "#34d058",
+      
+      // Cor do texto ignorado na decoração do Git
+      "gitDecoration.ignoredResourceForeground": "#6a737d",
+      
+      // Cor do texto em conflito na decoração do Git
+      "gitDecoration.conflictingResourceForeground": "#ffab70",
+      
+      // Cor do texto do submódulo na decoração do Git
+      "gitDecoration.submoduleResourceForeground": "#6a737d",
+      
+      // Cor de fundo da barra de ferramentas de depuração
+      "debugToolBar.background": "#2b3036",
+      
+      // Cor de fundo da linha de pilha destacada no editor
+      "editor.stackFrameHighlightBackground": "#a707",
+      
+      // Cor de fundo da linha de pilha focada no editor
+      "editor.focusedStackFrameHighlightBackground": "#b808",
+      
+      // Cor de fundo do destaque da correspondência na visualização de pesquisa
+      "peekViewEditor.matchHighlightBackground": "#ffd33d33",
+      
+      // Cor de fundo do destaque da correspondência na visualização de resultado
+      "peekViewResult.matchHighlightBackground": "#ffd33d33",
+      
+      // Cor de fundo da visualização do editor de busca
+      "peekViewEditor.background": "#1f242888",
+      
+      // Cor de fundo da visualização de resultado de busca
+      "peekViewResult.background": "#1f2428",
+      
+      // Cor do texto do cabeçalho das configurações
+      "settings.headerForeground": "#e1e4e8",
+      
+      // Cor do indicador de item modificado nas configurações
+      "settings.modifiedItemIndicator": "#0366d6",
+      
+      // Cor de fundo do botão da página de boas-vindas
+      "welcomePage.buttonBackground": "#2f363d",
+      
+      // Cor de fundo do botão ao passar o mouse na página de boas-vindas
+      "welcomePage.buttonHoverBackground": "#444d56"
+    },
+  
+    
+      // Habilita a coloração semântica no editor
+      "semanticHighlighting": true,
+    
+      "tokenColors": [
+        {
+          // Escopos que definem o que é considerado um comentário
+          "scope": [
+            "comment",
+            "punctuation.definition.comment",
+            "string.comment"
+          ],
+          // Configurações de estilo para comentários
+          "settings": {
+            // Cor do texto dos comentários
+            "foreground": "#6a737d"
+          }
+        },
+        {
+          // Escopos que definem constantes e variáveis constantes
+          "scope": [
+            "constant",
+            "entity.name.constant",
+            "variable.other.constant",
+            "variable.language"
+          ],
+          // Configurações de estilo para constantes
+          "settings": {
+            // Cor do texto das constantes
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopos para entidades e nomes de entidades
+          "scope": [
+            "entity",
+            "entity.name"
+          ],
+          // Configurações de estilo para entidades
+          "settings": {
+            // Cor do texto das entidades
+            "foreground": "#b392f0"
+          }
+        },
+        {
+          // Escopo para parâmetros de funções
+          "scope": "variable.parameter.function",
+          // Configurações de estilo para parâmetros de funções
+          "settings": {
+            // Cor do texto dos parâmetros de funções
+            "foreground": "#e1e4e8"
+          }
+        },
+        {
+          // Escopo para tags HTML/XML
+          "scope": "entity.name.tag",
+          // Configurações de estilo para tags
+          "settings": {
+            // Cor do texto das tags
+            "foreground": "#85e89d"
+          }
+        },
+        {
+          // Escopo para palavras-chave de linguagem
+          "scope": "keyword",
+          // Configurações de estilo para palavras-chave
+          "settings": {
+            // Cor do texto das palavras-chave
+            "foreground": "#f97583"
+          }
+        },
+        {
+          // Escopos para armazenamento e tipos de armazenamento
+          "scope": [
+            "storage",
+            "storage.type"
+          ],
+          // Configurações de estilo para armazenamento
+          "settings": {
+            // Cor do texto dos itens de armazenamento
+            "foreground": "#f97583"
+          }
+        },
+        {
+          // Escopos para modificadores de armazenamento e tipos específicos
+          "scope": [
+            "storage.modifier.package",
+            "storage.modifier.import",
+            "storage.type.java"
+          ],
+          // Configurações de estilo para modificadores e tipos específicos
+          "settings": {
+            // Cor do texto dos modificadores e tipos
+            "foreground": "#e1e4e8"
+          }
+        },
+        {
+          // Escopos para strings e definição de strings
+          "scope": [
+            "string",
+            "punctuation.definition.string",
+            "string punctuation.section.embedded source"
+          ],
+          // Configurações de estilo para strings
+          "settings": {
+            // Cor do texto das strings
+            "foreground": "#9ecbff"
+          }
+        },
+        {
+          // Escopo para suporte geral
+          "scope": "support",
+          // Configurações de estilo para itens de suporte
+          "settings": {
+            // Cor do texto de suporte
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para nomes de propriedades em metadados
+          "scope": "meta.property-name",
+          // Configurações de estilo para nomes de propriedades
+          "settings": {
+            // Cor do texto dos nomes de propriedades
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para variáveis gerais
+          "scope": "variable",
+          // Configurações de estilo para variáveis
+          "settings": {
+            // Cor do texto das variáveis
+            "foreground": "#ffab70"
+          }
+        },
+        {
+          // Escopo para variáveis não especificadas
+          "scope": "variable.other",
+          // Configurações de estilo para variáveis outras
+          "settings": {
+            // Cor do texto das variáveis outras
+            "foreground": "#e1e4e8"
+          }
+        },
+        {
+          // Escopo para itens inválidos e quebrados
+          "scope": "invalid.broken",
+          // Configurações de estilo para itens quebrados
+          "settings": {
+            // Estilo do texto para itens quebrados
+            "fontStyle": "italic",
+            // Cor do texto dos itens quebrados
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopo para itens inválidos e depreciados
+          "scope": "invalid.deprecated",
+          // Configurações de estilo para itens depreciados
+          "settings": {
+            // Estilo do texto para itens depreciados
+            "fontStyle": "italic",
+            // Cor do texto dos itens depreciados
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopo para itens inválidos e ilegais
+          "scope": "invalid.illegal",
+          // Configurações de estilo para itens ilegais
+          "settings": {
+            // Estilo do texto para itens ilegais
+            "fontStyle": "italic",
+            // Cor do texto dos itens ilegais
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopo para itens inválidos e não implementados
+          "scope": "invalid.unimplemented",
+          // Configurações de estilo para itens não implementados
+          "settings": {
+            // Estilo do texto para itens não implementados
+            "fontStyle": "italic",
+            // Cor do texto dos itens não implementados
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopo para retorno de carro em arquivos
+          "scope": "carriage-return",
+          // Configurações de estilo para retorno de carro
+          "settings": {
+            // Estilo do texto para retorno de carro
+            "fontStyle": "italic underline",
+            // Cor de fundo do retorno de carro
+            "background": "#f97583",
+            // Cor do texto do retorno de carro
+            "foreground": "#24292e",
+            // Texto a ser exibido para retorno de carro
+            "content": "^M"
+          }
+        },
+        {
+          // Escopo para mensagens de erro
+          "scope": "message.error",
+          // Configurações de estilo para mensagens de erro
+          "settings": {
+            // Cor do texto das mensagens de erro
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopo para strings de origem
+          "scope": "string source",
+          // Configurações de estilo para strings de origem
+          "settings": {
+            // Cor do texto das strings de origem
+            "foreground": "#e1e4e8"
+          }
+        },
+        {
+          // Escopo para variáveis dentro de strings
+          "scope": "string variable",
+          // Configurações de estilo para variáveis dentro de strings
+          "settings": {
+            // Cor do texto das variáveis dentro de strings
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopos para expressões regulares e strings de expressões regulares
+          "scope": [
+            "source.regexp",
+            "string.regexp"
+          ],
+          // Configurações de estilo para expressões regulares
+          "settings": {
+            // Cor do texto das expressões regulares
+            "foreground": "#dbedff"
+          }
+        },
+        {
+          // Escopos para classes de caracteres e escape em expressões regulares
+          "scope": [
+            "string.regexp.character-class",
+            "string.regexp constant.character.escape",
+            "string.regexp source.ruby.embedded",
+            "string.regexp string.regexp.arbitrary-repitition"
+          ],
+          // Configurações de estilo para classes de caracteres e escape
+          "settings": {
+            // Cor do texto das classes de caracteres e escape
+            "foreground": "#dbedff"
+          }
+        },
+        {
+          // Escopo para escape em expressões regulares
+          "scope": "string.regexp constant.character.escape",
+          // Configurações de estilo para escape em expressões regulares
+          "settings": {
+            // Estilo do texto para escape em expressões regulares
+            "fontStyle": "bold",
+            // Cor do texto do escape
+            "foreground": "#85e89d"
+          }
+        },
+        {
+          // Escopo para constantes de suporte
+          "scope": "support.constant",
+          // Configurações de estilo para constantes de suporte
+          "settings": {
+            // Cor do texto das constantes de suporte
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para variáveis de suporte
+          "scope": "support.variable",
+          // Configurações de estilo para variáveis de suporte
+          "settings": {
+            // Cor do texto das variáveis de suporte
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para referências a módulos
+          "scope": "meta.module-reference",
+          // Configurações de estilo para referências a módulos
+          "settings": {
+            // Cor do texto das referências a módulos
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para definição de lista em Markdown
+          "scope": "punctuation.definition.list.begin.markdown",
+          // Configurações de estilo para definição de lista
+          "settings": {
+            // Cor do texto da definição de lista
+            "foreground": "#ffab70"
+          }
+        },
+        {
+          // Escopos para cabeçalhos e entidades de cabeçalhos em Markdown
+          "scope": [
+            "markup.heading",
+            "markup.heading entity.name"
+          ],
+          // Configurações de estilo para cabeçalhos
+          "settings": {
+            // Estilo do texto dos cabeçalhos
+            "fontStyle": "bold",
+            // Cor do texto dos cabeçalhos
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para citações em Markdown
+          "scope": "markup.quote",
+          // Configurações de estilo para citações
+          "settings": {
+            // Cor do texto das citações
+            "foreground": "#85e89d"
+          }
+        },
+        {
+          // Escopo para itálico em Markdown
+          "scope": "markup.italic",
+          // Configurações de estilo para itálico
+          "settings": {
+            // Estilo do texto para itálico
+            "fontStyle": "italic",
+            // Cor do texto em itálico
+            "foreground": "#e1e4e8"
+          }
+        },
+        {
+          // Escopo para negrito em Markdown
+          "scope": "markup.bold",
+          // Configurações de estilo para negrito
+          "settings": {
+            // Estilo do texto para negrito
+            "fontStyle": "bold",
+            // Cor do texto em negrito
+            "foreground": "#e1e4e8"
+          }
+        },
+        {
+          // Escopo para código bruto em Markdown
+          "scope": "markup.raw",
+          // Configurações de estilo para código bruto
+          "settings": {
+            // Cor do texto do código bruto
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopos para itens deletados em diferenças e Markdown
+          "scope": [
+            "markup.deleted",
+            "meta.diff.header.from-file",
+            "punctuation.definition.deleted"
+          ],
+          // Configurações de estilo para itens deletados
+          "settings": {
+            // Cor de fundo para itens deletados
+            "background": "#86181d",
+            // Cor do texto dos itens deletados
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopos para itens inseridos em diferenças e Markdown
+          "scope": [
+            "markup.inserted",
+            "meta.diff.header.to-file",
+            "punctuation.definition.inserted"
+          ],
+          // Configurações de estilo para itens inseridos
+          "settings": {
+            // Cor de fundo para itens inseridos
+            "background": "#144620",
+            // Cor do texto dos itens inseridos
+            "foreground": "#85e89d"
+          }
+        },
+        {
+          // Escopos para itens alterados em diferenças e Markdown
+          "scope": [
+            "markup.changed",
+            "punctuation.definition.changed"
+          ],
+          // Configurações de estilo para itens alterados
+          "settings": {
+            // Cor de fundo para itens alterados
+            "background": "#c24e00",
+            // Cor do texto dos itens alterados
+            "foreground": "#ffab70"
+          }
+        },
+        {
+          // Escopos para itens ignorados e não rastreados em diferenças e Markdown
+          "scope": [
+            "markup.ignored",
+            "markup.untracked"
+          ],
+          // Configurações de estilo para itens ignorados
+          "settings": {
+            // Cor do texto dos itens ignorados
+            "foreground": "#2f363d",
+            // Cor de fundo dos itens ignorados
+            "background": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para intervalos de diferença
+          "scope": "meta.diff.range",
+          // Configurações de estilo para intervalos de diferença
+          "settings": {
+            // Cor do texto dos intervalos de diferença
+            "foreground": "#b392f0",
+            // Estilo do texto dos intervalos de diferença
+            "fontStyle": "bold"
+          }
+        },
+        {
+          // Escopo para cabeçalhos de diferença
+          "scope": "meta.diff.header",
+          // Configurações de estilo para cabeçalhos de diferença
+          "settings": {
+            // Cor do texto dos cabeçalhos de diferença
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para separadores de metadados
+          "scope": "meta.separator",
+          // Configurações de estilo para separadores
+          "settings": {
+            // Estilo do texto dos separadores
+            "fontStyle": "bold",
+            // Cor do texto dos separadores
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopo para saída de metadados
+          "scope": "meta.output",
+          // Configurações de estilo para saída de metadados
+          "settings": {
+            // Cor do texto da saída de metadados
+            "foreground": "#79b8ff"
+          }
+        },
+        {
+          // Escopos para destaque de parênteses e colchetes
+          "scope": [
+            "brackethighlighter.tag",
+            "brackethighlighter.curly",
+            "brackethighlighter.round",
+            "brackethighlighter.square",
+            "brackethighlighter.angle",
+            "brackethighlighter.quote"
+          ],
+          // Configurações de estilo para destaque de parênteses
+          "settings": {
+            // Cor do texto dos parênteses destacados
+            "foreground": "#d1d5da"
+          }
+        },
+        {
+          // Escopo para parênteses não correspondentes
+          "scope": "brackethighlighter.unmatched",
+          // Configurações de estilo para parênteses não correspondentes
+          "settings": {
+            // Cor do texto dos parênteses não correspondentes
+            "foreground": "#fdaeb7"
+          }
+        },
+        {
+          // Escopos para links e referências
+          "scope": [
+            "constant.other.reference.link",
+            "string.other.link"
+          ],
+          // Configurações de estilo para links e referências
+          "settings": {
+            // Cor do texto dos links e referências
+            "foreground": "#dbedff",
+            // Estilo do texto dos links e referências
+            "fontStyle": "underline"
+          }
+        }
+      ]
+    }
+    
