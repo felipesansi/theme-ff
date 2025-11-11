@@ -1,47 +1,36 @@
 # theme-ff
 
-**theme-ff** é um tema personalizado para o Visual Studio Code que oferece uma paleta de cores única, cuidadosamente escolhida para proporcionar uma experiência de codificação agradável e produtiva.
+`theme-ff` é um tema escuro sofisticado para o Visual Studio Code, projetado para oferecer uma experiência de codificação tranquila e produtiva. Com uma paleta de cores cuidadosamente selecionada, o tema proporciona um ambiente de trabalho moderno que é fácil para os olhos e perfeito para sessões de programação prolongadas. Ideal para desenvolvedores que buscam foco e eficiência, `theme-ff` combina estética e funcionalidade em um único pacote.
 
-<a href="https://ibb.co/m85mt5x"><img src="https://i.ibb.co/fvdbtdc/Captura-de-tela-2024-07-24-152508.png" alt="Captura-de-tela-2024-07-24-152508" border="0"></a>
+## Imagem
 
-## Paleta de Cores
+![Captura de tela do tema](<a href="https://ibb.co/r2RBH3jL"><img src="https://i.ibb.co/tpT0DzGN/Captura-de-tela-2025-11-11-102100.png" alt="Captura-de-tela-2025-11-11-102100" border="0" /></a>)
 
-- **Fundo do Editor**: ![#061826](https://via.placeholder.com/10/061826?text=+) `#061826`
-- **Texto do Editor**: ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff`
-- **Realce de Linha**: ![#203645](https://via.placeholder.com/10/203645?text=+) `#203645`
-- **Comentários**: ![#546E7A](https://via.placeholder.com/10/546E7A?text=+) `#546E7A`
-- **Variáveis**: ![#EEFFFF](https://via.placeholder.com/10/EEFFFF?text=+) `#EEFFFF`
-- **Funções**: ![#82AAFF](https://via.placeholder.com/10/82AAFF?text=+) `#82AAFF`
-- **Strings**: ![#C3E88D](https://via.placeholder.com/10/C3E88D?text=+) `#C3E88D`
-- **Palavras-Chave**: ![#C792EA](https://via.placeholder.com/10/C792EA?text=+) `#C792EA`
-- **Operadores**: ![#89DDFF](https://via.placeholder.com/10/89DDFF?text=+) `#89DDFF`
+## Temas Disponíveis
+
+Este pacote inclui 3 temas:
+
+*   **theme-ff**: O tema principal com uma paleta de cores escuras e modernas.
+*   **theme-ff2**: Uma variação do tema principal com alguns ajustes de cor.
+*   **theme-ff3**: Outra variação para atender a diferentes preferências.
 
 ## Instalação
 
-1. **Clone ou Baixe** este repositório.
-2. Copie a pasta `theme-ff` para o diretório de temas do VS Code:
-   - **Windows**: `%USERPROFILE%\.vscode\extensions`
-   - **macOS**: `~/.vscode/extensions`
-   - **Linux**: `~/.vscode/extensions`
-3. Reinicie o Visual Studio Code.
-4. Vá para a barra de menu e clique em **View** > **Command Palette** e digite `Preferences: Color Theme`.
-5. Selecione **theme-ff** da lista.
+1.  Abra o **Visual Studio Code**.
+2.  Vá para a aba de **Extensões** (ou pressione `Ctrl+Shift+X`).
+3.  Procure por `theme-ff`.
+4.  Clique em **Instalar**.
 
-## Contribuições
+## Como Usar
 
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
+1.  Após a instalação, abra a **Paleta de Comandos** (`Ctrl+Shift+P`).
+2.  Procure por `Preferências: Tema de Cores` e selecione-o.
+3.  Escolha um dos temas `theme-ff` da lista.
 
-1. Faça um fork deste repositório.
-2. Crie um branch para sua feature ou correção: `git checkout -b minha-feature`
-3. Commit suas alterações: `git commit -m 'Adicionei uma nova feature'`
-4. Push para o branch: `git push origin minha-feature`
-5. Abra um pull request.
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request no [repositório do GitHub](https://github.com/felipesansi/theme-ff).
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Agradecimentos
-
-Agradecemos a todos os contribuidores que ajudaram a melhorar este tema!
-
+Este projeto está licenciado sob os termos da licença MIT.
